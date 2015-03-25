@@ -1,0 +1,15 @@
+<?php
+return array(
+    'schema_ext' => '.xml',
+    // client_id and client_secret from github API
+    'client_id'  => '',
+    'client_secret' => '',
+    // make sure the path is correct and same with registered callback uri.
+    // backend/php-github/callback is the custom path (use apache mod rewrite),
+    // so you just adjust the host 
+    'callback_uri' => '',
+    'scope' => 'repo',
+    'get_authorize_uri' => 'https://github.com/login/oauth/authorize',
+    'post_access_token_uri'  => 'https://github.com/login/oauth/access_token',
+    'github_api_host' => 'https://api.github.com',
+);

@@ -5,8 +5,8 @@ var CONFIG = {
 	AVAILABLE_LOCALES: ["ar", "cs", "de", "el", "en", "eo", "es", "fr", "hu", "it", "ja", "pl", "pt_BR", "ro", "ru", "sv", "zh"],
 	DEFAULT_LOCALE: "en",
 	
-	AVAILABLE_BACKENDS: ["php-mysql", "php-blank", "php-file", "php-sqlite", "php-mysql+file", "php-postgresql", "php-pdo", "perl-file", "php-cubrid"],
-	DEFAULT_BACKEND: ["php-mysql"],
+	AVAILABLE_BACKENDS: ["php-github"],
+	DEFAULT_BACKEND: ["php-github"],
 
 	RELATION_THICKNESS: 2,
 	RELATION_SPACING: 15,
